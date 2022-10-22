@@ -3,12 +3,13 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 ## Project Features:
 our project is a real-world e-commerce website, including a(n):
---The shopping cart page shows a total cost for all products in the cart.
---The details page for a product shows a photo of the product, the name, the price, and the description.
---User can add any product with amounts in the Cart(with a showing alert -product added successfully to   the cart)
---User can go to Cart and modity(amount) or remove (with a showing alert -- product removed from cart) ay product added before.
--- In cart page , user will add Users details to complete shopping process.
--- when user submit the order ,  will be direct to the confirmation page after successful checkout.
+•	The shopping cart page shows a total cost for all products in the cart.
+•	The details page for a product shows a photo of the product, the name, the price, and the description.
+•	User can add any product with amounts in the Cart(with a showing alert -product added successfully to   the cart)
+•	User can go to Cart and modify(amount) or remove (with a showing alert -- product removed from cart) ay product added before.
+•	In cart page , user will add Users details to complete shopping process.
+•	when user submit the order ,  will be direct to the confirmation page after successful checkout.
+
 
 ## Development server
 
