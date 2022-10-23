@@ -48,3 +48,6 @@ img {
 input{
   margin: 5px;
 }
+.error {
+  color: #ba3939;
+}

@@ -12,7 +12,6 @@ export class OrderConfirmationComponent implements OnInit {
     this.cartData ={
       fullName:'',
       address:'',
-      creditCardNumber:'',
       TotalAmount:0
     }
    }

@@ -18,7 +18,6 @@ export class CartComponent implements OnInit {
     this.cartData = {
       fullName: '',
       address: '',
-      creditCardNumber: '',
       TotalAmount: 0
     };
   }
@@ -53,6 +52,15 @@ export class CartComponent implements OnInit {
   }
   showCart(cart: CartData): void {
     this.showHeader.emit();
+  }
+  CheckNumbers(event:any): boolean {
+    const charCode = (event.which) ? event.which : event.keyCode;
+    console.log(charCode);
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+      return false;
+    }
+    return true;
+
   }
 }
 
